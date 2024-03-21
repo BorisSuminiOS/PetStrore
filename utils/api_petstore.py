@@ -13,7 +13,7 @@ class Petstore_api():
         params = '?status='
         url_get = f'{base_url}{resource_get}{params}{status}'
         result_get = Http_methods.get(url_get)
-        print(f'СТАТУС: {status}\nПИТОМЦЫ: {result_get.text}\n-----\n')
+        print(f'ПИТОМЦЫ: {result_get.text}\nСТАТУС ПИТОМЦЕВ: {status}')
         return result_get
 
 
