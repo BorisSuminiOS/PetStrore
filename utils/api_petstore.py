@@ -15,5 +15,17 @@ class Petstore_api():
         result_get = Http_methods.get(url_get)
         print(f'ПИТОМЦЫ: {result_get.text}\nСТАТУС ПИТОМЦЕВ: {status}')
         return result_get
-
+    @staticmethod
+    def add_new_pet(id_pet, name):
+        '''Добавить нового питомца'''
+        body_json = {"id": id_pet,"category": {"id": 0,"name": "string"},
+                        "name": name,
+                        "photoUrls": ["string"],
+                        "tags": [{"id": 0,"name": "string"}],
+                        "status": "available"}
+        resource_post = '/pet'
+        url_post = base_url + resource_post
+        result_post = Http_methods.post(url_post, body_json)
+        print(f'ОТВЕТ ОТ СЕРВЕРА: {result_post.text}')
+        return result_post
 
