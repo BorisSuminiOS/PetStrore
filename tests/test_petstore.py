@@ -1,3 +1,5 @@
+import json
+
 from utils.api_petstore import Petstore_api
 from utils.checking import Checking
 
@@ -9,4 +11,6 @@ class Test_petstore():
         '''Тест на поиск питомца по статусу'''
         for i in lst_status_pets:
             response = Petstore_api.find_pet_by_status(i)
+            required_fields = json.loads(response.text)
+            Checking.check_required_fields(response, required_fields)
             Checking.check_status_code(response, 200)
