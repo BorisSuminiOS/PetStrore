@@ -78,13 +78,23 @@ class Test_pets():
 class Test_petstore():
     '''Тестирование питомцев'''
 
-    id_pet = 123
+    id_pet = 1234
     status = 'placed'   #Статус: placed, approved, delivered
-    count_pet = 1
+    count_pet = 2
+    order_number = 2
+
     @classmethod
     def test_place_order_pet(cls):
         '''Тест на оформление заказа на питомца'''
-        response = Petstore_api.place_order_pet(cls.id_pet,cls.count_pet, cls.status)
+        response = Petstore_api.place_order_pet(cls.id_pet,cls.count_pet, cls.status, cls.order_number)
+        required_fields = json.loads(response.text)
+        Checking.check_all_required_fields(response, required_fields)
+        Checking.check_status_code(response, 200)
+
+    @classmethod
+    def test_search_order_number(cls):
+        '''Тест поиск заказа по его номеру'''
+        response = Petstore_api.search_order_number(cls.order_number)
         required_fields = json.loads(response.text)
         Checking.check_all_required_fields(response, required_fields)
         Checking.check_status_code(response, 200)

@@ -88,10 +88,10 @@ class Petstore_api():
     '''Доступ к заказам зоомагазина'''
 
     @staticmethod
-    def place_order_pet(id_pet, count_pet, status):
+    def place_order_pet(id_pet, count_pet, status,order_number):
         '''Оформление заказа на питомца'''
         body_post = {
-                    "id": 0,
+                    "id": order_number,
                     "petId": id_pet,
                     "quantity": count_pet,
                     "shipDate": str(datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%fZ')),
@@ -102,3 +102,13 @@ class Petstore_api():
         result_post = Http_methods.post(url_post, body_post)
         print(result_post.text)
         return result_post
+
+    @staticmethod
+    def search_order_number(order_number):
+        '''Поиск заказа по номеру заказа'''
+        url_get = f'{base_url}/store/order/{order_number}'
+        result_get = Http_methods.get(url_get)
+        print(result_get.text)
+        return result_get
+
+
