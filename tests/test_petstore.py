@@ -1,5 +1,5 @@
 import json
-from utils.api_petstore import Pets_api, Petstore_api
+from utils.api_petstore import Pets_api, Petstore_api, User
 from utils.checking import Checking
 
 
@@ -75,34 +75,59 @@ class Test_pets():
     #     Checking.check_all_required_fields(response, required_fields)
     #     Checking.check_status_code(response, 200)
 
-class Test_petstore():
-    '''Тестирование питомцев'''
+# class Test_petstore():
+#     '''Тестирование заказов зоомагазина'''
+#
+#     id_pet = 1
+#     status = 'placed'   #Статус: placed, approved, delivered
+#     count_pet = 3
+#     order_number = 231
+#
+#     @classmethod
+#     def test_place_order_pet(cls):
+#         '''Тест на оформление заказа на питомца'''
+#         response = Petstore_api.place_order_pet(cls.id_pet,cls.count_pet, cls.status, cls.order_number)
+#         required_fields = json.loads(response.text)
+#         Checking.check_all_required_fields(response, required_fields)
+#         Checking.check_status_code(response, 200)
+#
+#     @classmethod
+#     def test_search_order_number(cls):
+#         '''Тест поиск заказа по его номеру'''
+#         response = Petstore_api.search_order_number(cls.order_number)
+#         required_fields = json.loads(response.text)
+#         Checking.check_all_required_fields(response, required_fields)
+#         Checking.check_status_code(response, 200)
+#
+#     @classmethod
+#     def test_delete_by_order_number(cls):
+#         '''Тест на удаление заказа по номеру '''
+#         response = Petstore_api.delete_by_order_number(cls.order_number)
+#         required_fields = json.loads(response.text)
+#         Checking.check_all_required_fields(response, required_fields)
+#         Checking.check_status_code(response, 200)
 
-    id_pet = 1
-    status = 'placed'   #Статус: placed, approved, delivered
-    count_pet = 3
-    order_number = 231
+class Test_user():
+    '''Тестирование пользователя зоомагазина'''
+    user_name = 'QAJamesBraun'
+    first_name = "James"
+    last_name = "Braun"
+    email = 'JamesBraun@mail.ru'
+    password = 'qwerty123456'
+    phone = '+123-1231-231'
 
     @classmethod
-    def test_place_order_pet(cls):
-        '''Тест на оформление заказа на питомца'''
-        response = Petstore_api.place_order_pet(cls.id_pet,cls.count_pet, cls.status, cls.order_number)
+    def test_create_user(cls):
+        '''Регистрация нового пользователя'''
+        response = User.create_user(cls.user_name,cls.first_name, cls.last_name, cls.email, cls.password, cls.phone)
         required_fields = json.loads(response.text)
         Checking.check_all_required_fields(response, required_fields)
         Checking.check_status_code(response, 200)
 
     @classmethod
-    def test_search_order_number(cls):
-        '''Тест поиск заказа по его номеру'''
-        response = Petstore_api.search_order_number(cls.order_number)
-        required_fields = json.loads(response.text)
-        Checking.check_all_required_fields(response, required_fields)
-        Checking.check_status_code(response, 200)
-
-    @classmethod
-    def test_delete_by_order_number(cls):
-        '''Тест на удаление заказа по номеру '''
-        response = Petstore_api.delete_by_order_number(cls.order_number)
+    def test_get_user_by_name(cls):
+        '''Поиск пользователя по имени'''
+        response = User.get_user_by_name(cls.user_name)
         required_fields = json.loads(response.text)
         Checking.check_all_required_fields(response, required_fields)
         Checking.check_status_code(response, 200)

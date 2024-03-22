@@ -119,3 +119,31 @@ class Petstore_api():
         print(result_delete.text)
         return result_delete
 
+class User():
+    '''Операции над пользователем '''
+
+    @staticmethod
+    def create_user(user_name, first_name, last_name, email, password, phone):
+        '''Регистрация нового пользователя'''
+        body_json = {
+                    "id": 1,
+                    "username": user_name,
+                    "firstName": first_name,
+                    "lastName": last_name,
+                    "email": email,
+                    "password": password,
+                    "phone": phone,
+                    "userStatus": 1
+                    }
+        url_post = f'{base_url}/user'
+        result_post = Http_methods.post(url_post, body_json)
+        print(result_post.text)
+        return result_post
+
+    @staticmethod
+    def get_user_by_name(user_name):
+        '''Поиск пользователя по имени'''
+        url_get = f'{base_url}/user/{user_name}'
+        result_get = Http_methods.get(url_get)
+        print(result_get.text)
+        return result_get
