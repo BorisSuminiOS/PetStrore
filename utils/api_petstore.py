@@ -73,4 +73,14 @@ class Petstore_api():
         print(result_post.text)
         return result_post
 
+    @staticmethod
+    def delete_pet(id_pet):
+        '''Удаление питомца из магазина'''
+        url_delete = f'{base_url}/pet/{id_pet}'
+        headers = {
+            'api_key' : 'special-key'
+        }
+        result_delete = requests.delete(url_delete, headers=headers)
+        print(result_delete.text)
+        return result_delete
 
