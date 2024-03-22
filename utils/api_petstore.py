@@ -50,4 +50,18 @@ class Petstore_api():
         print(result_post.text)
         return result_post
 
+    @staticmethod
+    def update_pet_data(id_pet, category_name, name_pet,url_photo,status,tag_name):
+        '''Обновления данных существующего питомца'''
+        body_json = {"id": id_pet,"category": {"id": id_pet,"name": category_name},
+                        "name": name_pet,
+                        "photoUrls": [url_photo],
+                        "tags": [{"id": id_pet,"name": tag_name}],
+                        "status": status}
+        resource_put = '/pet'
+        url_put = base_url + resource_put
+        result_put = Http_methods.put(url_put, body_json)
+        print(f'Ответ от сервера: {result_put.text}')
+        return result_put
+
 
