@@ -1,5 +1,6 @@
 import requests
 import datetime
+import random
 from utils.http_methods import Http_methods
 
 base_url = 'https://petstore.swagger.io/v2'
@@ -126,14 +127,14 @@ class User():
     def create_user(user_name, first_name, last_name, email, password, phone):
         '''Регистрация нового пользователя'''
         body_json = {
-                    "id": 1,
+                    "id": random.randint(1, 100),
                     "username": user_name,
                     "firstName": first_name,
                     "lastName": last_name,
                     "email": email,
                     "password": password,
                     "phone": phone,
-                    "userStatus": 1
+                    "userStatus": random.randint(1, 100)
                     }
         url_post = f'{base_url}/user'
         result_post = Http_methods.post(url_post, body_json)
@@ -147,3 +148,22 @@ class User():
         result_get = Http_methods.get(url_get)
         print(result_get.text)
         return result_get
+
+    @staticmethod
+    def create_lst_user(user_name,first_name,last_name,email,password,phone):
+        '''Создание новых пользователей'''
+        body_json = {
+                "id": random.randint(1, 100),
+                "username": user_name,
+                "firstName": first_name,
+                "lastName": last_name,
+                "email": email,
+                "password": password,
+                "phone": phone,
+                 "userStatus": random.randint(1, 100)
+                }
+        url_post = f'{base_url}/user'
+        result_post = Http_methods.post(url_post, body_json)
+        status_code = result_post.status_code
+        print(result_post.text)
+        return result_post

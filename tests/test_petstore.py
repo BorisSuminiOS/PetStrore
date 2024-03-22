@@ -116,18 +116,33 @@ class Test_user():
     password = 'qwerty123456'
     phone = '+123-1231-231'
 
-    @classmethod
-    def test_create_user(cls):
-        '''Регистрация нового пользователя'''
-        response = User.create_user(cls.user_name,cls.first_name, cls.last_name, cls.email, cls.password, cls.phone)
-        required_fields = json.loads(response.text)
-        Checking.check_all_required_fields(response, required_fields)
-        Checking.check_status_code(response, 200)
+    # @classmethod
+    # def test_create_user(cls):
+    #     '''Регистрация нового пользователя'''
+    #     response = User.create_user(cls.user_name,cls.first_name, cls.last_name, cls.email, cls.password, cls.phone)
+    #     required_fields = json.loads(response.text)
+    #     Checking.check_all_required_fields(response, required_fields)
+    #     Checking.check_status_code(response, 200)
+    #
+    # @classmethod
+    # def test_get_user_by_name(cls):
+    #     '''Поиск пользователя по имени'''
+    #     response = User.get_user_by_name(cls.user_name)
+    #     required_fields = json.loads(response.text)
+    #     Checking.check_all_required_fields(response, required_fields)
+    #     Checking.check_status_code(response, 200)
 
-    @classmethod
-    def test_get_user_by_name(cls):
-        '''Поиск пользователя по имени'''
-        response = User.get_user_by_name(cls.user_name)
-        required_fields = json.loads(response.text)
-        Checking.check_all_required_fields(response, required_fields)
-        Checking.check_status_code(response, 200)
+    def test_create_lst_user(sels):
+        '''Создание новых пользователей'''
+        count_new_users = 5
+        user_name = ['QA_Dima', 'QA_Olya', 'QA_Alex', 'QA_Boris', 'QA_Sergey']
+        first_name = ['Dima', 'Olya', 'Alex', 'Boris', 'Sergey']
+        last_name = ['Laser', 'Diev', 'Fadeev', 'Sumin', 'Trie']
+        email = ['Dima@mail.ru', 'Olya@mail.ru', 'Alex@mail.ru', 'Boris@mail.ru', 'Sergey@mail.ru']
+        password = ['123', '456', '789', 'qwerty123', 'qwerty456']
+        phone = ['123123123', '456456456', '789789789', '123456123456', '123345123345']
+        for i in range(count_new_users):
+            response = User.create_lst_user(user_name[i],first_name[i],last_name[i],email[i],password[i],phone[i])
+            required_fields = json.loads(response.text)
+            Checking.check_all_required_fields(response, required_fields)
+            Checking.check_status_code(response, 200)
