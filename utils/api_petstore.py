@@ -111,4 +111,11 @@ class Petstore_api():
         print(result_get.text)
         return result_get
 
+    @staticmethod
+    def delete_by_order_number(order_number):
+        '''Удаление заказа по номеру заказа'''
+        url_delete = f'{base_url}/store/order/{order_number}'
+        result_delete = requests.delete(url_delete)
+        print(result_delete.text)
+        return result_delete
 
