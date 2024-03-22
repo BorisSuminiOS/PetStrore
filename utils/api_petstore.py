@@ -1,11 +1,11 @@
 import requests
-
+import datetime
 from utils.http_methods import Http_methods
 
 base_url = 'https://petstore.swagger.io/v2'
 
-class Petstore_api():
-    '''API сайта Зоомагазин'''
+class Pets_api():
+    '''API методы, create, read, update, delete pets (CRUD)'''
 
     @staticmethod
     def find_pet_by_status(status):
@@ -84,3 +84,21 @@ class Petstore_api():
         print(result_delete.text)
         return result_delete
 
+class Petstore_api():
+    '''Доступ к заказам зоомагазина'''
+
+    @staticmethod
+    def place_order_pet(id_pet, count_pet, status):
+        '''Оформление заказа на питомца'''
+        body_post = {
+                    "id": 0,
+                    "petId": id_pet,
+                    "quantity": count_pet,
+                    "shipDate": str(datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%fZ')),
+                    "status": status,
+                    "complete": True
+                    }
+        url_post = f'{base_url}/store/order'
+        result_post = Http_methods.post(url_post, body_post)
+        print(result_post.text)
+        return result_post
