@@ -64,4 +64,13 @@ class Petstore_api():
         print(f'Ответ от сервера: {result_put.text}')
         return result_put
 
+    @staticmethod
+    def updating_pet_with_form_data(id_pet, name_pet, status):
+        '''Обновления данных питомца с помощью form-data'''
+        data = {'name' : name_pet, 'status' : status}
+        url_post = f'{base_url}/pet/{id_pet}'
+        result_post = requests.post(url_post, data=data)
+        print(result_post.text)
+        return result_post
+
 

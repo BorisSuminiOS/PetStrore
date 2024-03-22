@@ -41,17 +41,25 @@ class Test_pets():
     #     Checking.check_all_required_fields(response, required_fields)
     #     Checking.check_status_code(response, 200)
     #
-    def test_update_pet_data(self):
-        '''Тест на обновления данных существующего питомца'''
-        name_category = 'Семейство кошачьих'
+    # def test_update_pet_data(self):
+    #     '''Тест на обновления данных существующего питомца'''
+    #     name_category = 'Семейство кошачьих'
+    #     name_pet = 'Персик'
+    #     tag_name = 'Кот'
+    #     url_photo = 'https://www.purina.ru/sites/default/files/2021-10/amer-korotkoserst-2.jpg'
+    #     response = Petstore_api.update_pet_data(id_pet, name_category, name_pet, url_photo, status, tag_name)
+    #     required_fields = json.loads(response.text)
+    #     Checking.check_all_required_fields(response, required_fields)
+    #     Checking.check_status_code(response, 200)
+
+    def test_updating_pet_with_form_data(self):
+        '''Тест на обновления данных питомца с помощью form-data'''
         name_pet = 'Персик'
-        tag_name = 'Кот'
-        url_photo = 'https://www.purina.ru/sites/default/files/2021-10/amer-korotkoserst-2.jpg'
-        response = Petstore_api.update_pet_data(id_pet, name_category, name_pet, url_photo, status, tag_name)
+        status =  'pending'
+        response = Petstore_api.updating_pet_with_form_data(id_pet,name_pet,status)
         required_fields = json.loads(response.text)
         Checking.check_all_required_fields(response, required_fields)
         Checking.check_status_code(response, 200)
-
 
 
 
