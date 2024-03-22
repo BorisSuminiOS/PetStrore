@@ -2,6 +2,7 @@ import requests
 import datetime
 import random
 from utils.http_methods import Http_methods
+from utils.logger import Logger
 
 base_url = 'https://petstore.swagger.io/v2'
 
@@ -47,7 +48,9 @@ class Pets_api():
         data = {'additionalMetadata': format_image}
         files = {'file': ('image', open(f'{image}', 'rb'),'image/jpeg')}
         url_post = f'{base_url}/pet/{id_pet}/uploadImage'
+        Logger.add_request(url_post,"POST")
         result_post = requests.post(url_post, data=data, files=files)
+        Logger.add_response(result_post)
         print(result_post.text)
         return result_post
 
@@ -70,7 +73,9 @@ class Pets_api():
         '''Обновления данных питомца с помощью form-data'''
         data = {'name' : name_pet, 'status' : status}
         url_post = f'{base_url}/pet/{id_pet}'
+        Logger.add_request(url_post, "POST")
         result_post = requests.post(url_post, data=data)
+        Logger.add_response(result_post)
         print(result_post.text)
         return result_post
 
@@ -81,7 +86,9 @@ class Pets_api():
         headers = {
             'api_key' : 'special-key'
         }
+        Logger.add_request(url_delete, "DELETE")
         result_delete = requests.delete(url_delete, headers=headers)
+        Logger.add_response(result_delete)
         print(result_delete.text)
         return result_delete
 
@@ -116,7 +123,9 @@ class Petstore_api():
     def delete_by_order_number(order_number):
         '''Удаление заказа по номеру заказа'''
         url_delete = f'{base_url}/store/order/{order_number}'
+        Logger.add_request(url_delete, "DELETE")
         result_delete = requests.delete(url_delete)
+        Logger.add_response(result_delete)
         print(result_delete.text)
         return result_delete
 
@@ -150,20 +159,77 @@ class User():
         return result_get
 
     @staticmethod
-    def create_lst_user(user_name,first_name,last_name,email,password,phone):
+    def create_lst_user():
         '''Создание новых пользователей'''
-        body_json = {
+        body_json = [
+                {
                 "id": random.randint(1, 100),
-                "username": user_name,
-                "firstName": first_name,
-                "lastName": last_name,
-                "email": email,
-                "password": password,
-                "phone": phone,
+                "username": 'QaMark',
+                "firstName": 'Mark',
+                "lastName": "Moss",
+                "email": 'Mark@mail.ru',
+                "password": '123123',
+                "phone": '1234123123',
                  "userStatus": random.randint(1, 100)
-                }
-        url_post = f'{base_url}/user'
+                },
+            {
+                "id": random.randint(1, 100),
+                "username": 'Qa_wer',
+                "firstName": 'Wer',
+                "lastName": "Mosswer",
+                "email": 'WER@mail.ru',
+                "password": '12asd312asdeg3',
+                "phone": '123412312323123',
+                "userStatus": random.randint(1, 100)
+            }
+        ]
+        url_post = f'{base_url}/user/createWithArray'
         result_post = Http_methods.post(url_post, body_json)
-        status_code = result_post.status_code
         print(result_post.text)
         return result_post
+
+    @staticmethod
+    def update_user_by_user_name(user_name):
+        '''Изменение данных существующего пользователя по User name'''
+        body_json = {
+            "id": random.randint(1, 100),
+            "username": user_name,
+            "firstName": 'Alex',
+            "lastName": 'Sumin',
+            "email": 'AlexAlex@mail.ru',
+            "password": 'qwerty123123123',
+            "phone": '898876653123',
+            "userStatus": random.randint(1, 100)
+        }
+        url_put = f'{base_url}/user/{user_name}'
+        result_put = Http_methods.put(url_put, body_json)
+        print(result_put.text)
+        return result_put
+
+    @staticmethod
+    def login(user_name,password):
+        '''Авторизация пользователя в системе'''
+        url_get = f'{base_url}/user/login?{user_name}&{password}'
+        result_get = Http_methods.get(url_get)
+        print(result_get.text)
+        return result_get
+
+    @staticmethod
+    def logout():
+        '''Выход пользователя из текущего сеанса'''
+        url_get = f'{base_url}/user/logout'
+        result_get = Http_methods.get(url_get)
+        print(result_get.text)
+        return result_get
+
+    @staticmethod
+    def delete_user(user_name):
+        '''Удалить пользователя'''
+        url_delete = f'{base_url}/user/{user_name}'
+        Logger.add_request(url_delete, "DELETE")
+        result_delete = requests.delete(url_delete)
+        Logger.add_response(result_delete)
+        print(result_delete.text)
+        return result_delete
+
+

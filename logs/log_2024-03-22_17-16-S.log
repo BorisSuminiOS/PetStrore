@@ -1,0 +1,260 @@
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_find_pet_by_status (call)
+Time: 2024-03-22 17:16:16.693634
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/findByStatus?status=available
+
+Status code: 200
+Response text: [{"id":9223372036854775303,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775319,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775322,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775326,"category":{"id":0,"name":"string"},"name":"doggisse","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775344,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775347,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775353,"name":"Tiger","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372036854775357,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775369,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775370,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775371,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775372,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775374,"category":{"id":0,"name":"string"},"name":"Sartium","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775377,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775378,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775380,"category":{"id":0,"name":"string"},"name":"doggissde","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775382,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775384,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775385,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775386,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775389,"name":"Tiger","photoUrls":["string"],"tags":[],"status":"available"},{"id":9223372036854775390,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775391,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775392,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":99996,"name":"doggie_by_ms","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775395,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775397,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775398,"category":{"id":0,"name":"Jerry"},"name":"Mouse","photoUrls":["string"],"tags":[{"id":0,"name":"Mouse"}],"status":"available"},{"id":9223372036854775411,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775412,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775414,"category":{"id":0,"name":"cat"},"name":"Margo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775416,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":112233,"category":{"id":30,"name":"Eq-dog"},"name":"Postman","photoUrls":["URLLink"],"tags":[{"id":10,"name":"Doberman"}],"status":"available"},{"id":9223372036854775422,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775443,"category":{"id":0,"name":"string"},"name":"doggi11e","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775444,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775448,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775450,"category":{"id":0,"name":"DOG"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775453,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775464,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775465,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775467,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775470,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775476,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775477,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775478,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775479,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":571,"category":{"id":992,"name":"dog"},"name":"Gregg","photoUrls":[],"tags":[],"status":"available"},{"id":9223372036854775484,"category":{"id":0,"name":"string"},"name":"doggisse","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775499,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775504,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1245,"category":{"id":1245,"name":"xyz"},"name":"xyz","photoUrls":["test"],"tags":[],"status":"available"},{"id":9223372036854775511,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775512,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775513,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775514,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775515,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775516,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775517,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775519,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775520,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775521,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775522,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775523,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775525,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":890,"category":{"id":673,"name":"dog"},"name":"Manuel","photoUrls":[],"tags":[],"status":"available"},{"id":9223372036854775526,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":698,"category":{"id":0,"name":"Marta"},"name":"1983","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":679,"category":{"id":0,"name":"Marta"},"name":"1983","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775530,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775531,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775544,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":123123123,"category":{"id":0,"name":"string"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775570,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2004,"category":{"id":0},"photoUrls":["string"],"tags":[{"id":0}],"status":"available"},{"id":9223372036854775572,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775573,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775574,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775575,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775576,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775577,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775578,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775580,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775581,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775582,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775583,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775584,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775588,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775590,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775591,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775592,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775593,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775594,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775595,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775596,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775597,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775598,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775599,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775600,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775601,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775602,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775603,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775604,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775613,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775614,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775615,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775616,"category":{"id":100,"name":"Dinosaur"},"name":"Tyrannosaurus","photoUrls":["http://en.wikipedia.org/wiki/Tyrannosaurus#/media/File:Tyrannosaurus_rex_mmartyniuk.png"],"tags":[{"id":100,"name":"reptile"},{"id":101,"name":"dinosaur"}],"status":"available"},{"id":9223372036854775625,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775626,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775627,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775628,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775629,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775630,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":3045,"name":"MyPet","photoUrls":[],"tags":[],"status":"available"},{"id":9223372036854775668,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775670,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775671,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775676,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775679,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":688,"category":{"id":0,"name":"string"},"name":"DanielView","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775681,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775696,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775697,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775705,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775729,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775731,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775732,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775733,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775735,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775736,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775758,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775760,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775761,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775762,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775781,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775795,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":12345,"category":{"id":0,"name":"string"},"name":"blabla","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775796,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775798,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775802,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775805,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1795,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":8084,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":8246,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":4223,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":7140,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":9239,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":3235,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":3927,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":4220,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":6708,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":8412,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":9135,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":235456,"category":{"id":0,"name":"string"},"name":"Sar","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":5489,"category":{"id":1,"name":"Cat"},"name":"Missi","photoUrls":[],"tags":[{"id":35,"name":"British cat"}],"status":"available"},{"id":6397,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":6865,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":1678,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":12121,"category":{"id":0,"name":"string"},"name":"TestPetName","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":7777,"category":{"id":0,"name":"string"},"name":"doggieV99","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":985,"category":{"id":143,"name":"dog"},"name":"Louisa","photoUrls":[],"tags":[],"status":"available"},{"id":673,"category":{"id":38,"name":"dog"},"name":"Reyna","photoUrls":[],"tags":[],"status":"available"},{"id":871,"category":{"id":871,"name":"dog166"},"name":"dog166","photoUrls":["www.Infostretch.com"],"tags":[{"id":871,"name":"dog166"}],"status":"available"},{"id":483,"category":{"id":483,"name":"dog221"},"name":"dog221","photoUrls":["www.Infostretch.com"],"tags":[{"id":483,"name":"dog221"}],"status":"available"},{"id":1261,"category":{"id":1261,"name":"dog1405"},"name":"dog1405","photoUrls":["www.Infostretch.com"],"tags":[{"id":1261,"name":"dog1405"}],"status":"available"},{"id":1009,"category":{"id":1009,"name":"ManuGupta1"},"name":"doggie","photoUrls":["www.Infostretch.com"],"tags":[{"id":1009,"name":"ManuGupta1"}],"status":"available"},{"id":567,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":3421,"category":{"id":0,"name":"string"},"name":"pise","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":5461,"category":{"id":0,"name":"string"},"name":"Ally","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":6998113,"category":{"id":0,"name":""},"name":"Hond Pietje","photoUrls":["img.com/HondPietje"],"tags":[{"id":0,"name":"Test"}],"status":"available"},{"id":5807,"category":{"id":0,"name":"naveen"},"name":"nithin","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":55,"category":{"id":0,"name":"string"},"name":"runneradmin","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":123,"category":{"id":2,"name":"Dog"},"name":"Doggy","photoUrls":["https://upload.wikimedia.org/wikipedia/commons/0/03/Kurzhaardackel.jpg"],"tags":[{"id":1,"name":"children-friendly"}],"status":"available"},{"id":444555,"category":{"id":4444,"name":"dogs"},"name":"Jack","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":555,"category":{"id":234,"name":"dog"},"name":"Joany","photoUrls":[],"tags":[],"status":"available"},{"id":1231231233,"category":{"id":0,"name":"string"},"name":"Sartsdsium","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":667000,"name":"Jake","photoUrls":[],"tags":[],"status":"available"},{"id":111,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":15,"name":"pet15","photoUrls":["string"],"tags":[],"status":"available"},{"id":74,"name":"pet74","photoUrls":["string"],"tags":[],"status":"available"},{"id":420,"category":{"id":42,"name":"Chihuahua"},"name":"PasBre","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9222968140497180179,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9222968140491042131,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":5518,"category":{"id":8124,"name":"SkMjOYqyOg"},"name":"UPmtehzEHQ","photoUrls":["gIUKArgTWt","FTeqwgocMy"],"tags":[{"id":20638,"name":"PGNFUrZDkj"},{"id":20060,"name":"WJVfRRVQIk"}],"status":"available"},{"id":19051,"category":{"id":17896,"name":"UUMUOkPnVE"},"name":"LDzIBqjigt","photoUrls":["rwKFBxeWjd","lcGDOAldSI"],"tags":[{"id":30089,"name":"CfmYFAHTBt"},{"id":18290,"name":"jdgQnsqInZ"}],"status":"available"},{"id":32427,"category":{"id":5472,"name":"yAsYHGWVrJ"},"name":"FAvIPTlXVE","photoUrls":["lWeEKhTqcb","EzdlTHJFGt"],"tags":[{"id":12651,"name":"WYZMjLRFrR"},{"id":28461,"name":"hlffdcXGjs"}],"status":"available"},{"id":888,"category":{"id":0,"name":"Bobik"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":156,"category":{"id":192,"name":"dog"},"name":"Regan","photoUrls":[],"tags":[],"status":"available"},{"id":861,"category":{"id":7,"name":"dog"},"name":"Zachary","photoUrls":[],"tags":[],"status":"available"},{"id":824,"category":{"id":358,"name":"dog"},"name":"Tyson","photoUrls":[],"tags":[],"status":"available"},{"id":460,"category":{"id":114,"name":"dog"},"name":"Diamond","photoUrls":[],"tags":[],"status":"available"},{"id":3456,"category":{"id":34,"name":"Cat"},"name":"Puffy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":12,"category":{"id":1,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1,"name":"string"}],"status":"available"},{"id":33,"name":"pet33","photoUrls":["string"],"tags":[],"status":"available"},{"id":1000,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":299,"category":{"id":657,"name":"dog"},"name":"Wilburn","photoUrls":[],"tags":[],"status":"available"},{"id":268,"category":{"id":30,"name":"dog"},"name":"Oceane","photoUrls":[],"tags":[],"status":"available"},{"id":9145,"category":{"id":1399,"name":"apply"},"name":"eye","photoUrls":["https://dummyimage.com/743x665"],"tags":[{"id":781,"name":"too"}],"status":"available"},{"id":56,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}]
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:17 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_find_pet_by_status (call)
+Time: 2024-03-22 17:16:18.505184
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/findByStatus?status=pending
+
+Status code: 200
+Response text: [{"id":9223372036854775394,"category":{"id":0,"name":""},"name":"Doggy","photoUrls":[],"tags":[{"id":0,"name":""}],"status":"pending"},{"id":5000,"category":{"id":5,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"pending"},{"id":832,"category":{"id":9,"name":"dog"},"name":"Fahey","photoUrls":[],"tags":[{"id":2,"name":"astronaut"},{"id":2,"name":"dog"}],"status":"pending"},{"id":972603,"category":{"id":9,"name":"dog"},"name":"Brekke","photoUrls":[],"tags":[{"id":2,"name":"astronaut"},{"id":2,"name":"dog"}],"status":"pending"},{"id":412784332031784715,"category":{"id":9,"name":"dog"},"name":"Nolan","photoUrls":[],"tags":[{"id":2,"name":"astronaut"},{"id":2,"name":"dog"}],"status":"pending"},{"id":31662904,"category":{"id":-72976378,"name":"consequat commodo dolor"},"name":"doggie","photoUrls":["dolor","aliquip"],"tags":[{"id":-81536039,"name":"officia non exercitation laborum"},{"id":-81700539,"name":"sed quis"}],"status":"pending"},{"id":9,"category":{"id":0,"name":"Teste"},"name":"Lua","photoUrls":[],"tags":[{"id":1,"name":"Amor da minha vida"}],"status":"pending"}]
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:19 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_find_pet_by_status (call)
+Time: 2024-03-22 17:16:19.930811
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+
+Status code: 200
+Response text: [{"id":7574746,"category":{"id":1,"name":"Cat"},"name":"Hardy","photoUrls":["https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"],"tags":[{"id":7805,"name":"Mainecoon"}],"status":"sold"},{"id":5030,"name":"Mochi","photoUrls":[],"tags":[],"status":"sold"},{"id":37930519,"category":{"id":-20083820,"name":"est"},"name":"doggie","photoUrls":["consectetur","proident sint"],"tags":[{"id":-50305895,"name":"occaecat labore"},{"id":-90748378,"name":"Duis irure"}],"status":"sold"}]
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:21 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_add_new_pet (call)
+Time: 2024-03-22 17:16:21.246080
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet
+
+Status code: 200
+Response text: {"id":123456789,"category":{"id":123456789,"name":"Семейство обезьян"},"name":"King-Kong","photoUrls":["https://img.razrisyika.ru/kart/23/90336-king-kong-3.jpg"],"tags":[{"id":123456789,"name":"Обезьяна"}],"status":"available"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:22 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_search_pet_id (call)
+Time: 2024-03-22 17:16:22.357209
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/pet/123456789
+
+Status code: 200
+Response text: {"id":123456789,"category":{"id":123456789,"name":"Семейство обезьян"},"name":"King-Kong","photoUrls":["https://img.razrisyika.ru/kart/23/90336-king-kong-3.jpg"],"tags":[{"id":123456789,"name":"Обезьяна"}],"status":"available"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:23 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_uploading_pet_image (call)
+Time: 2024-03-22 17:16:23.617786
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet/123456789/uploadImage
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"additionalMetadata: jpeg\nFile uploaded to ./image, 60198 bytes"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:25 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_update_pet_data (call)
+Time: 2024-03-22 17:16:25.430519
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/pet
+
+Status code: 200
+Response text: {"id":123456789,"category":{"id":123456789,"name":"Семейство обезьян"},"name":"King-Kong","photoUrls":["https://img.razrisyika.ru/kart/23/90336-king-kong-3.jpg"],"tags":[{"id":123456789,"name":"Обезьяна"}],"status":"available"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:26 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_updating_pet_with_form_data (call)
+Time: 2024-03-22 17:16:26.894691
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/pet/123456789
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"123456789"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_pets::test_delete_pet (call)
+Time: 2024-03-22 17:16:28.132092
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/pet/123456789
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"123456789"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_petstore::test_place_order_pet (call)
+Time: 2024-03-22 17:16:29.374542
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/store/order
+
+Status code: 200
+Response text: {"id":231,"petId":1,"quantity":3,"shipDate":"2024-03-22T17:16:29.374+0000","status":"placed","complete":true}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_petstore::test_search_order_number (call)
+Time: 2024-03-22 17:16:30.613540
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/store/order/231
+
+Status code: 200
+Response text: {"id":231,"petId":1,"quantity":3,"shipDate":"2024-03-22T17:16:29.374+0000","status":"placed","complete":true}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:31 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_petstore::test_delete_by_order_number (call)
+Time: 2024-03-22 17:16:31.662038
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/store/order/231
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"231"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:32 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_create_user (call)
+Time: 2024-03-22 17:16:32.927650
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/user
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"72"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:33 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_get_user_by_name (call)
+Time: 2024-03-22 17:16:34.106030
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/QAJamesBraun
+
+Status code: 200
+Response text: {"id":98,"username":"QAJamesBraun","firstName":"James","lastName":"Braun","email":"JamesBraun@mail.ru","password":"qwerty123456","phone":"+123-1231-231","userStatus":4}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:35 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_create_lst_user (call)
+Time: 2024-03-22 17:16:35.351757
+Request method: POST
+Request URL: https://petstore.swagger.io/v2/user/createWithArray
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"ok"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:36 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_update_user_by_user_name (call)
+Time: 2024-03-22 17:16:36.516822
+Request method: PUT
+Request URL: https://petstore.swagger.io/v2/user/QAJamesBraun
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"11"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:37 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_get_user_by_name2 (call)
+Time: 2024-03-22 17:16:37.698270
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/QAJamesBraun
+
+Status code: 200
+Response text: {"id":98,"username":"QAJamesBraun","firstName":"James","lastName":"Braun","email":"JamesBraun@mail.ru","password":"qwerty123456","phone":"+123-1231-231","userStatus":4}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_login (call)
+Time: 2024-03-22 17:16:38.976959
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/login?QAJamesBraun&qwerty123456
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"logged in user session:1711116999939"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'X-Expires-After': 'Fri Mar 22 15:16:39 UTC 2024', 'X-Rate-Limit': '5000', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_logout (call)
+Time: 2024-03-22 17:16:40.259052
+Request method: GET
+Request URL: https://petstore.swagger.io/v2/user/logout
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"ok"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:41 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
+
+_____
+Test: tests/test_petstore.py::Test_user::test_delete_user (call)
+Time: 2024-03-22 17:16:41.327105
+Request method: DELETE
+Request URL: https://petstore.swagger.io/v2/user/QAJamesBraun
+
+Status code: 200
+Response text: {"code":200,"type":"unknown","message":"QAJamesBraun"}
+Response headers: {'Date': 'Fri, 22 Mar 2024 14:16:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, PUT', 'Access-Control-Allow-Headers': 'Content-Type, api_key, Authorization', 'Server': 'Jetty(9.2.9.v20150224)'}
+Response cookies: {}
+
+_____
