@@ -5,6 +5,7 @@ from utils.http_methods import Http_methods
 from utils.logger import Logger
 
 base_url = 'https://petstore.swagger.io/v2'
+headers = {'Content-Type':'application/json'}
 
 class Pets_api():
     '''API методы, create, read, update, delete pets (CRUD)'''
