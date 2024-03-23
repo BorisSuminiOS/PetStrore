@@ -7,7 +7,7 @@ import allure
 @allure.epic('Тестирование питомцев')
 class Test_pets():
 
-    id_pet = 123456789
+    id_pet = 9223372016900015871
     name_category = 'Семейство обезьян'
     name_pet = 'King-Kong'
     url_photo = 'https://img.razrisyika.ru/kart/23/90336-king-kong-3.jpg'
@@ -15,13 +15,13 @@ class Test_pets():
     tag_name = 'Обезьяна'
     image = 'images/King-Kong.jpg'
 
+    @classmethod
     @allure.description('Тест на поиск питомца по статусу')
-    def test_find_pet_by_status(self):
-        for i in ['available', 'pending', 'sold']:
-            response = Pets_api.find_pet_by_status(i)
-            required_fields = json.loads(response.text)
-            Checking.check_all_required_fields(response, required_fields)
-            Checking.check_status_code(response, 200)
+    def test_find_pet_by_status(cls):
+        response = Pets_api.find_pet_by_status(cls.status)
+        required_fields = json.loads(response.text)
+        Checking.check_all_required_fields(response, required_fields)
+        Checking.check_status_code(response, 200)
 
     @classmethod
     @allure.description('Тест на добавление нового питомца')
@@ -67,7 +67,7 @@ class Test_pets():
         required_fields = json.loads(response.text)
         Checking.check_all_required_fields(response, required_fields)
         Checking.check_status_code(response, 200)
-
+#
     @classmethod
     @allure.description('Тест на удаление питомца из магазина')
     def test_delete_pet(cls):

@@ -1,0 +1,4 @@
+{"id":100,"username":"QAJamesBraun","firstName":"Alex","lastName":"Sumin","email":"AlexAlex@mail.ru","password":"qwerty123123123","phone":"898876653123","userStatus":70}
+Обязательные поля: Все указанные поля в ответе от сервера присутствуют
+Статус код: 200
+

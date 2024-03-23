@@ -14,8 +14,7 @@ class Pets_api():
     def find_pet_by_status(status):
         '''Найти питомцев по статусу (available, pending, sold)'''
         resource_get = '/pet/findByStatus'
-        params = f'?status={status}'
-        url_get = f'{base_url}{resource_get}{params}'
+        url_get = f'{base_url}{resource_get}?status={status}'
         result_get = Http_methods.get(url_get)
         print(f'Питомцы: {result_get.text}\nСтатус питомцев: {status}')
         return result_get
@@ -49,9 +48,7 @@ class Pets_api():
         data = {'additionalMetadata': format_image}
         files = {'file': ('image', open(f'{image}', 'rb'),'image/jpeg')}
         url_post = f'{base_url}/pet/{id_pet}/uploadImage'
-        Logger.add_request(url_post,"POST")
-        result_post = requests.post(url_post, data=data, files=files)
-        Logger.add_response(result_post)
+        result_post = Http_methods.post_from_data(url_post,data, files)
         print(result_post.text)
         return result_post
 
@@ -74,9 +71,8 @@ class Pets_api():
         '''Обновления данных питомца с помощью form-data'''
         data = {'name' : name_pet, 'status' : status}
         url_post = f'{base_url}/pet/{id_pet}'
-        Logger.add_request(url_post, "POST")
-        result_post = requests.post(url_post, data=data)
-        Logger.add_response(result_post)
+        files = {}
+        result_post = Http_methods.post_from_data(url_post, data, files)
         print(result_post.text)
         return result_post
 
@@ -87,9 +83,7 @@ class Pets_api():
         headers = {
             'api_key' : 'special-key'
         }
-        Logger.add_request(url_delete, "DELETE")
-        result_delete = requests.delete(url_delete, headers=headers)
-        Logger.add_response(result_delete)
+        result_delete = Http_methods.delete_no_body(url_delete, headers)
         print(result_delete.text)
         return result_delete
 
@@ -124,9 +118,8 @@ class Petstore_api():
     def delete_by_order_number(order_number):
         '''Удаление заказа по номеру заказа'''
         url_delete = f'{base_url}/store/order/{order_number}'
-        Logger.add_request(url_delete, "DELETE")
-        result_delete = requests.delete(url_delete)
-        Logger.add_response(result_delete)
+        headers = {'Content-Type': 'application/json'}
+        result_delete = Http_methods.delete_no_body(url_delete,headers)
         print(result_delete.text)
         return result_delete
 
@@ -227,9 +220,8 @@ class User():
     def delete_user(user_name):
         '''Удалить пользователя'''
         url_delete = f'{base_url}/user/{user_name}'
-        Logger.add_request(url_delete, "DELETE")
-        result_delete = requests.delete(url_delete)
-        Logger.add_response(result_delete)
+        headers = {'Content-Type': 'application/json'}
+        result_delete = Http_methods.delete_no_body(url_delete,headers)
         print(result_delete.text)
         return result_delete
 

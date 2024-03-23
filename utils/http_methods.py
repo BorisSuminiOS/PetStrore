@@ -24,6 +24,14 @@ class Http_methods():
         return result_post
 
     @staticmethod
+    def post_from_data(url, data, files):
+        with allure.step('POST'):
+            Logger.add_request(url, "POST")
+            result_post = requests.post(url, cookies=cookies, data=data, files=files)
+            Logger.add_response(result_post)
+        return result_post
+
+    @staticmethod
     def put(url, body):
         with allure.step('PUT'):
             Logger.add_request(url, "PUT")
@@ -36,6 +44,14 @@ class Http_methods():
         with allure.step('DELETE'):
             Logger.add_request(url, "DELETE")
             result_delete = requests.delete(url, json=body, headers=headers, cookies=cookies)
+            Logger.add_response(result_delete)
+        return result_delete
+
+    @staticmethod
+    def delete_no_body(url, headers):
+        with allure.step('DELETE'):
+            Logger.add_request(url, "DELETE")
+            result_delete = requests.delete(url, headers=headers, cookies=cookies)
             Logger.add_response(result_delete)
         return result_delete
 

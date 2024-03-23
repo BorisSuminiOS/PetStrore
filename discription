@@ -1,0 +1,3 @@
+1. Ссылка на отчет о тестировании - http://192.168.213.88:50731/index.html#suites
+2. импортировать все необходимые пакеты командой - pip install -r requiroments.txt
+3. Тестовая документация API - https://petstore.swagger.io/#/user/createUser

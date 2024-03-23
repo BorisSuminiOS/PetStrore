@@ -1,0 +1,4 @@
+{"code":200,"type":"unknown","message":"additionalMetadata: jpeg\nFile uploaded to ./image, 60198 bytes"}
+Обязательные поля: Все указанные поля в ответе от сервера присутствуют
+Статус код: 200
+
